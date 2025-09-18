@@ -17,5 +17,9 @@
     --color-accent: #00d1b2;
     --color-dark: #0f172a;
     --color-lightG: #e2e8f0;
+    --color-greyish: #475569;
+
+    /* shadow custm*/
+    --shadow-soft: 0 10px 30px rgb(0 0 0 / 0.08);
 
 }
