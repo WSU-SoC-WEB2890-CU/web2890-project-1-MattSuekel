@@ -61,10 +61,66 @@
 
     </header>
 
-    
+    <main>
+    <!-- hero stuffs -->
+    <section class="relative overflow-hidden bg-slate-900">
 
+      <img src="images/hero.jpeg" alt="salesman passes keys to buyer" class="absolute inset-0 h-full w-full object-cover opacity-60">
+
+      <div class="relative">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+          <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <!-- text -->
+            <div class="text-white">
+              <p class="font-serif text-4xl sm:text-5xl leading-tight">
+                We buy <span class="italic">&quot;any&quot;</span> car.
+              </p>
+              <p class="mt-4 text-lg text-light">Get Your Free Online Valuation Now!</p>
+            </div>
+
+            <!-- form thing -->
+            <div class="lg:justify-self-end">
+              <form id="offer" class="rounded-2xl bg-white/95 p-6 shadow-soft backdrop-blur">
+                <h2 class="text-xl font-semibold text-slate-900">Start your free valuation</h2>
+
+                <div class="mt-4 grid grid-cols-1 gap-4">
+                  <label class="block">
+                    <span class="sr-only">Enter VIN</span>
+                    <input type="text" inputmode="latin" name="vin" placeholder="Enter VIN" class="w-full rounded-lg border-slate-300 focus:border-primary focus:ring-primary"/>
+                  </label>
+
+                  <label class="block">
+                    <span class="sr-only">Enter Year</span>
+                    <input type="text" name="year" placeholder="Enter Year" class="w-full rounded-lg border-slate-300 focus:border-primary focus:ring-primary"/>
+                  </label>
+
+                  <label class="block">
+                    <span class="sr-only">Enter Make</span>
+                    <input type="text" name="make" placeholder="Enter Make" class="w-full rounded-lg border-slate-300 focus:border-primary focus:ring-primary"/>
+                  </label>
+
+                  <label class="block">
+                    <span class="sr-only">Enter Model</span>
+                    <input type="text" name="model" placeholder="Enter Model" class="w-full rounded-lg border-slate-300 focus:border-primary focus:ring-primary"/>
+                  </label>
+
+                  <button type="submit"
+                          class="mt-2 inline-flex w-full items-center justify-center rounded-lg bg-primary px-5 py-3 font-semibold text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-sky">
+                          Get an Offer 
+                  </button>
+
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    </main>
   </body>
-
   <script src="./javascripts/main.js"></script>
-
 </html>
