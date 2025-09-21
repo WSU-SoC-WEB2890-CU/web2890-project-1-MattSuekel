@@ -23,3 +23,22 @@
     --shadow-soft: 0 10px 30px rgb(0 0 0 / 0.08);
 
 }
+
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    padding: 0.5rem 0.75rem;
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #5d97ff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+    z-index: 1000;
+}
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    outline: none;
+}
